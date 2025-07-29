@@ -1,0 +1,16 @@
+name: mcp-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - jupyter
+  - pandas
+  - numpy
+  - python-pptx  # for working with PowerPoint files
+  - matplotlib
+  - seaborn
+  - pip:
+    - python-docx  # for Word documents if needed
+    - openpyxl    # for Excel files
