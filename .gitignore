@@ -1,0 +1,8 @@
+# PowerPoint temporary files
+~$*
+*.tmp
+
+# Office temporary files
+*.tmp
+*.bak
+*.swp
